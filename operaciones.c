@@ -23,8 +23,8 @@ int multiplicar(const int a, const int b) {
 
 /* ── esPar — verifica si un número es par ────────────────────────────────── */
 
-int esPar(const int n) {
-    return (n % 2) == 0;
+int esPar(int n) {
+    return (n % 2) == 0; /* version main */
 }
 
 int dividir(int a, int b) {
