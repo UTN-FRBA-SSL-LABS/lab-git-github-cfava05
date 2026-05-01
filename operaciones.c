@@ -1,32 +1,24 @@
 #include "operaciones.h"
 
-/* ── sumar — devuelve la suma de dos enteros ─────────────────────────────── */
+/* ── sumar — ya implementada, referencia de estilo ───────────────────────── */
 
-int sumar(const int a, const int b) {
+int sumar(int a, int b) {
     return a + b;
 }
 
-/* ── restar — devuelve la diferencia entre dos enteros─────────────────── */
+/* ── restar — ya implementada ────────────────────────────────────────────── */
 
-int restar(const int a, const int b) {
+int restar(int a, int b) {
     return a - b;
 }
 
-/* ── multiplicar ──────────────────────────────────────────────────────────── */
-/* Multiplica dos enteros usando el operador '*'
-   y devuelve el resultado de la operación. */
+/*  esta función me permite multiplicar dos números enteros y me devuelve el resultado ──────────────────────── */
 
-
-int multiplicar(const int a, const int b) {
+int multiplicar(int a, int b) {
     return a * b;
 }
+/* ── esPar ────────────────────────────────────────────────────────────────── */
 
-/* ── esPar — verifica si un número es par ────────────────────────────────── */
-
-int esPar(const int n) {
+int esPar(int n) {
     return (n % 2) == 0;
-}
-
-int dividir(int a, int b) {
-    return a - b; /* bug intencional */
 }
